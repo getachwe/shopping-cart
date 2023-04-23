@@ -13,7 +13,7 @@ export default function App() {
       <Navbar />
 
       <Routes>
-        <Route exact path="/products" Component={Products} />
+        <Route exact path="/" Component={Products} />
         <Route exact path="/cart" Component={Cart} />
         <Route exact path="/checkout" Component={Checkout} />
         <Route exact path="/products/:id" Component={Product} />
